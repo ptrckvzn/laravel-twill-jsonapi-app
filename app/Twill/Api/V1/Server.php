@@ -40,13 +40,13 @@ class Server extends BaseServer
     protected function allSchemas(): array
     {
         return [
-//            BlockSchema::class,
-//            FeatureSchema::class,
-//            RelatedItemSchema::class,
-//            FileSchema::class,
-//            MediaSchema::class,
-//            SettingSchema::class,
-//            TagSchema::class,
+            BlockSchema::class,
+            FeatureSchema::class,
+            RelatedItemSchema::class,
+            FileSchema::class,
+            MediaSchema::class,
+            SettingSchema::class,
+            TagSchema::class,
             UserSchema::class,
         ];
     }
